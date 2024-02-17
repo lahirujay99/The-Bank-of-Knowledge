@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { Button } from "@radix-ui/themes";
 
 export default function Home() {
-  return <h1>hi</h1>;
+  return (
+    <div>
+      <Button size="3">hm</Button>
+    </div>
+  );
 }
