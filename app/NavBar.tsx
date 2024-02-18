@@ -1,8 +1,8 @@
 import { Container, Flex } from "@radix-ui/themes";
-import Image from "next/image";
 import Link from "next/link";
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Logo from "./Components/Logo";
 
 const links = [
   { label: "Education", href: "/education" },
@@ -23,14 +23,6 @@ const NavBar = () => {
         </Flex>
       </Container>
     </nav>
-  );
-};
-
-const Logo = () => {
-  return (
-    <Link href="/">
-      <Image src="/The Bank Logo.png" alt="logo" height={64} width={247} />
-    </Link>
   );
 };
 
