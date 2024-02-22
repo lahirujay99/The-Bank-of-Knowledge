@@ -2,7 +2,7 @@ import { Avatar, Container, Flex, Grid } from "@radix-ui/themes";
 import Image from "next/image";
 import Link from "next/link";
 
-const signin = () => {
+const signup = () => {
   return (
     <Container>
       <Grid
@@ -11,20 +11,33 @@ const signin = () => {
       >
         <Flex direction="column" className="p-[30px]">
           <div className="flex flex-col items-center">
-            <Avatar src="/home-svg.svg" fallback="Login icon" size="3" />
-            <p className="text-[#1C4596] font-bold text-[28px]">Login</p>
+            <p className="text-[#1C4596] font-bold text-[28px]">Get Started</p>
           </div>
           <form className="mt-5">
             <div className="mb-4">
               <label
                 className="block text-[#292929] text-sm font-bold text-[14px] mb-2"
-                htmlFor="username"
+                htmlFor="name"
               >
-                Email Address
+                Name
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
+                id="name"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-[#292929] text-sm font-bold mb-2"
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="email"
                 type="text"
                 placeholder="Email"
               />
@@ -32,35 +45,49 @@ const signin = () => {
             <div className="mb-4">
               <label
                 className="block text-[#292929] text-sm font-bold mb-2"
-                htmlFor="username"
+                htmlFor="phone"
               >
-                Password
+                Phone
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="password"
+                id="phone"
+                type="number"
+                placeholder="Phone Number"
               />
-              <button
-                className="mt-8 w-full bg-[#F18F02]  text-white font-semibold text-[20px] py-2 px-4 rounded focus:outline-none focus:shadow-outline "
-                type="button"
-              >
-                Sign In
-              </button>
-              <Link
-                className="mt-4 text-[#1C4596] text-[18px] font-medium flex flex-col items-center"
-                href="#"
-              >
-                Forget Password
-              </Link>
             </div>
+            <div className="mb-4">
+              <label
+                className="block text-[#292929] text-sm font-bold mb-2"
+                htmlFor="company"
+              >
+                Company Name
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="company"
+                type="text"
+                placeholder="Company"
+              />
+            </div>
+            <button
+              className="mt-5 w-full bg-[#F18F02]  text-white font-semibold text-[20px] py-2 px-4 rounded focus:outline-none focus:shadow-outline "
+              type="button"
+            >
+              Continue
+            </button>
+            <Link
+              className="mt-4 text-[#1C4596] text-[18px] font-medium flex flex-col items-center"
+              href="#"
+            >
+              Already a member ?
+            </Link>
           </form>
         </Flex>
         <div>
           <Image
-            src="/login cover.png"
-            alt="login image"
+            src="/sign up cover.png"
+            alt="sign up image"
             width={545}
             height={644}
           />
@@ -70,4 +97,4 @@ const signin = () => {
   );
 };
 
-export default signin;
+export default signup;
