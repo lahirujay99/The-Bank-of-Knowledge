@@ -50,7 +50,7 @@ const CoursesList = () => {
             <Flex
               direction="column"
               key={course.courseLink}
-              className="bg-[#1C4596] text-white pt-5 pl-5 pr-5 "
+              className="bg-[#1C4596] text-white pt-5 pl-5 pr-5"
               gap="4"
             >
               <p className="font-medium text-[16px]">{course.courseType}</p>
