@@ -58,10 +58,10 @@ const Menu = () => {
 
 const QuickLink = () => {
   const qlinks = [
-    { label: "The Knowledge Vault", href: "/knowledge/vaulet" },
+    { label: "The Knowledge Vault", href: "/knowledge/vault/video/catalog" },
     { label: "The Knowledge Society", href: "/knowledge/society" },
     { label: "The Knowledge Investor", href: "/knowledge/investor" },
-    { label: "The Knowledge Bank", href: "/knowledge/bank" },
+    { label: "The Knowledge Bank", href: "/knowledge/bank/courses" },
   ];
   return (
     <Flex direction="column" className="pl-7">

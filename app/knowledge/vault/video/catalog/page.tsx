@@ -1,9 +1,8 @@
 import CoursesFilter from "@/app/Components/CoursesFilter";
 import Pagination from "@/app/Components/Pagination";
 import SearchBar from "@/app/Components/SearchBar";
-import { Grid, Flex, Container, Select, Box } from "@radix-ui/themes";
+import { Box, Container, Flex, Grid } from "@radix-ui/themes";
 import Image from "next/image";
-import React from "react";
 
 const page = () => {
   return (

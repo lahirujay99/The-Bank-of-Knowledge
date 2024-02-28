@@ -150,8 +150,8 @@ const DummySection = () => {
               text ever since the 1500s, when an unknown printer took a galley
               of type and scrambled it to make a type specimen book.
             </p>
-            <button className="inline-flex items-center bg-[#F18F02] text-white font-semibold hover:text-white py-1 px-4 w-[180px] rounded">
-              Get Started
+            <button className="inline-flex items-center bg-[#F18F02] text-white font-semibold hover:text-white py-2 px-4 w-[180px] rounded">
+              Learn More
               <span className="mr-1"></span>
               <MdOutlineKeyboardArrowRight />
             </button>

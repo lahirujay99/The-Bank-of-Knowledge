@@ -2,7 +2,6 @@ import CoursesFilter from "@/app/Components/CoursesFilter";
 import Pagination from "@/app/Components/Pagination";
 import SearchBar from "@/app/Components/SearchBar";
 import { Box, Container, Flex, Grid } from "@radix-ui/themes";
-import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const page = () => {

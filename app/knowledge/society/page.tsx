@@ -1,7 +1,4 @@
-import CoursesFilter from "@/app/Components/CoursesFilter";
-import SearchBar from "@/app/Components/SearchBar";
-import { Box, Container, Flex, Grid } from "@radix-ui/themes";
-import React from "react";
+import { Container, Flex } from "@radix-ui/themes";
 
 const page = () => {
   return (

@@ -1,7 +1,5 @@
-import { Avatar, Text, Container, Flex } from "@radix-ui/themes";
-import React from "react";
+import { Avatar, Container, Flex } from "@radix-ui/themes";
 import { IoCall } from "react-icons/io5";
-import { MdOutlineEmail } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 
 const page = () => {
